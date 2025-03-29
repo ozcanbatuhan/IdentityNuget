@@ -31,7 +31,7 @@ Aşağıdaki komut ile yüklenen şablonları kontrol edebilirsiniz:
  * Proje ana dizini içinde "IdentityServer" klasörü oluşturun.
  * Sonra IdentityServer klasörü dizinine geçin ve şu komutu çalıştırın:
 ```sh
- dotnet new is4aspid --name <belirleyeceğin identity server proje adı>
+ dotnet new is4aspid --name MultiShop.IdentityServer.csproj(belirleyeceğin identity server proje adı)
 ```
 * IDE' de projenizi açın ve ana dizinde "IdentityServer" klasörü oluşturun.
 * IdentityServer klasörü içine existing project olarak "MultiShop.IdentityServer.csproj' u ekleyin.
