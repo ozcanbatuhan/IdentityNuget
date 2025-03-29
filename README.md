@@ -26,16 +26,17 @@ Aşağıdaki komut ile yüklenen şablonları kontrol edebilirsiniz:
  dotnet new -l
 ```
 
-## 6. Çalışma Dizini Değiştir
-Ayıklanan dosyanın bulunduğu dizine geçin:
+## 6. IdentityServer4' ü ASP.NET Core Projesine Dahil Etmek
+ * ASP.NET Core projenizi File in Explorer şeklinde açın.
+ * Proje ana dizini içinde "IdentityServer" klasörü oluşturun.
+ * Sonra IdentityServer klasörü dizinine geçin ve şu komutu çalıştırın:
 ```sh
- cd <ayıklanan dosya yolu>
+ dotnet new is4aspid --name <belirleyeceğin identity server proje adı>
 ```
+* IDE' de projenizi açın ve ana dizinde "IdentityServer" klasörü oluşturun.
+* IdentityServer klasörü içine existing project olarak "MultiShop.IdentityServer.csproj' u ekleyin.
 
-## 7. IdentityServer4 ASP.NET Core Şablonunu Oluştur
-Şablonu oluşturmak için aşağıdaki komutu çalıştırın:
-```sh
- dotnet new is4aspid
-```
+## 7. IdentityServer İçeriğinin Kodlanması
+Sonrasında tabloların oluşturulması ve yetkilendirilmelerin oluşturulması gibi kodlama işlemleri ile tam bir IdentityServer oluşturabilirsiniz.
 
 Bu adımları tamamladıktan sonra IdentityServer4 ASP.NET Core projeniz başarıyla oluşturulmuş olacaktır.
